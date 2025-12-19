@@ -94,11 +94,6 @@ export default function Navbar() {
                                     </Link>
                                 );
                             })}
-
-                            <button className="flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold text-red-500 border border-red-200 hover:bg-red-50">
-                                <LogOut size={18} />
-                                Logout
-                            </button>
                         </div>
                     </motion.div>
                 )}
